@@ -4,7 +4,7 @@
 
 <body style="background-color:lemon chiffon;"/>
 
-<h1>Welcome to Un's Website!</h1>
+<h1 style="text-align:center;">Welcome to Un's Website!</h1>
 
 
 <h4 style="text-align:center;"> "Good, better, best. Never let it rest. Until your good is better and your better is your best." - Tim Duncan</h4>
