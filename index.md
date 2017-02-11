@@ -16,6 +16,8 @@
 
 <a href="http://www.w3schools.com">Link to my LinkedIn profile</a>
 
+<footer class="site-footer">Copyright Un Leong &copy; 2017</footer>
+
 </body>
 </html>
 
