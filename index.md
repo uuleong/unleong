@@ -1,2 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
 
-__Exercise (2)__ Make the query using Request and load the results into a DataFrame that makes sense.
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
