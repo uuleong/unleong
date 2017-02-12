@@ -14,7 +14,7 @@
 
 <p>Hi, my name is Un Leong and I am a fourth year undergraduate studying at the University of California, Davis pursing a B.A. in Economics with a specialization in Data Analytics and Economics Analysis and a B.S. in Applied Statistics with an emphasis in Economics.</p>
 
-<a href="http://www.w3schools.com">Link to my LinkedIn profile</a>
+<a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
