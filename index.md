@@ -15,6 +15,8 @@
 
 <a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
+<h4> Projects </h4>
+
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/assignment1.ipynb"> Assignment 1</a>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
