@@ -15,10 +15,6 @@
 
 <a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
-<a href = "file:///Users/unleong/Downloads/assignment2.html"> 
-
-
-
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
 </body>
