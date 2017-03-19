@@ -13,11 +13,12 @@
 
 <p>Hi, my name is Un Leong and I am from the Bay Area! I am a fourth year undergraduate studying at the University of California, Davis pursing a B.A. in Economics with a specialization in Data Analytics and Economics Analysis and a B.S. in Applied Statistics with an emphasis in Economics. I am planning to attend graduate school studying applied economics after I graduate this coming June. Feel free to contract me at uuleong@ucdavis.edu!  </p>
 
+<a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
+
 <h4> Data Science Interest </h4> 
 
 <p> I am really interested in sports statistics, especially in basketball! The recent wave of technological innovations in basketball, such as wearables, got me fascinated in understanding how big data can be analyzed to improve players' performance. </p>
 
-<a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
 <h4> Projects </h4>
 
