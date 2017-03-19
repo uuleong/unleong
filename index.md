@@ -19,7 +19,8 @@
 
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/assignment1.ipynb"> Assignment 1</a>
 
-<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> Econometrics Project </a>
+
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/>Econometrics Project </a><br/>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
