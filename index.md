@@ -16,8 +16,6 @@
 <a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
 <h4> Projects </h4>
-
-
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/>Econometrics Project </a><br/>
 
 
