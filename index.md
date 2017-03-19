@@ -20,13 +20,10 @@
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/assignment1.ipynb"> Assignment 1</a>
 
 
-
-
-
-
-
-
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/>Econometrics Project </a><br/>
+
+
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf"> Time Series Project </a>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
