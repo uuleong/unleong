@@ -22,6 +22,7 @@
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf"> Milk </a>
 
 
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/STA141%20Project.ipynb"> Gender Wage Gap in Sports </a>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
