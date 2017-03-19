@@ -16,13 +16,13 @@
 <a href="https://www.linkedin.com/in/un-leong-213875117">Link to my LinkedIn profile</a>
 
 <h4> Projects </h4>
-<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> Very Low Birth Weight Babies</a>
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/> Very Low Birth Weight Babies</a><br/>
 
 
-<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf"> Milk </a>
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf"> <br/>Milk </a><br/>
 
 
-<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/STA141%20Project.ipynb"> Gender Wage Gap in Sports </a>
+<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/STA141%20Project.ipynb"> <br/>Gender Wage Gap in Sports </a><br/>
 
 <footer class="site-footer &nbsp; ">Copyright Un Leong &copy; 2017</footer>
 
