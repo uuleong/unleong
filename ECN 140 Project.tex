@@ -1,0 +1,330 @@
+\documentclass{article}
+\usepackage{epsfig}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{bbm}
+\usepackage{setspace}
+\doublespacing
+\usepackage{verbatim}
+\usepackage{natbib}
+\usepackage{appendix}
+\usepackage{float}
+\usepackage{rotating}
+
+
+\bibliographystyle{econometrica}
+\usepackage{tablefootnote}
+\usepackage[flushleft]{threeparttable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{authblk}
+\usepackage{epstopdf}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{bm}
+
+% ECN 140 Project 
+
+\title{Very Low Birth Weight Babies: Are They Predictable and Are Their IQ Scores Different From Other Babies?}
+\author{Un U Leong}
+\date{March 6, 2016}
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+
+Factors that contribute to babies being born very low birth weight include but are not limited to mother's age, race, mother's health, and multi-birth status. Using data that is a representative sample of 7,363 children born in 2001, this paper explores the probability of a baby being born under 1,500 grams given certain family characteristics and environmental factors and whether they are different from babies born more than 1,500 grams. From this data set, there was no significant difference in the probability of a baby born very low birth weight between a high social economic status White family and a low social economic status Black family. This paper also found that very low birth weight babies have statistically significant different Bayley Scales of Infant Development test scores from other babies in the middle social economic status taken within the first two years of their lives. It is an indication that there is a correlation between very low birth weight babies and low IQ test scores. Natural field experiments need to be observed to see whether there is a relationship between very low birth weight babies and low IQ score and whether it persist throughout their lives. If there is a relationship, policies need to be implicated to help very low birth weight babies catch up to their peers so they would not lag behind. 
+
+
+
+\end{abstract}
+
+
+
+\section*{I. Introduction}
+
+Babies born under 1,500 grams are considered to be born very low birth weight (VLBW) which can be detrimental to their health according to Lucile Packard Children's Hospital at Stanford. Very low birth weight babies tend to be at a disadvantage from the start that persist throughout their lives. After matching babies for sex, race, age, and social class, VLBW babies are found to score significantly lower on the WISC-R Test which is used to asses a child's cognitive development, reading and mathematics achievement test, and the Bender Visual Motor Gestalt Test (Hack \textit{et al}, 1991). Even in adulthood, they still face educational disadvantages such as lower rates of high school graduation, less likely to enroll in post-secondary school, lower mean IQ score, among others (Hack \textit{et al}, 2002). 
+
+
+This paper has three goals: The first is to investigate whether the environment and genes that the baby is born into affects their probability of being born VLBW. It also tests whether there is a significant difference in the probability of being born VLBW from a White family from the highest social economic status (SES) to a Black family in the lowest SES. It has been found that behaviors and psychological dispositions that are detrimental to health in adults are found to relate to children that are born in the low SES so there might be underlying factors that make those two groups different (Lynch, Kaplan, and Salonen 1997). Lastly, it tests whether there is a significant difference between the first standardized Bayley Scales of Infant Development IQ test score to the second IQ test score and the improvement between the two test scores in VLBW babies to other babies in the middle SES group.
+
+
+\section*{II. Description of Data}
+
+The data set used comes from a national representative sample of 7,363 children born in 2001 which includes characteristics of these children and their families. These characteristics include race, multi-birth status, parent's score, social economic status, region, mother's age, days premature, number of siblings, family structure, birth weight, gender, age when first IQ score is measured, age when second IQ score is measured, the standardized score of first IQ test, the standardized score of the second IQ test, and the difference in the second wave IQ score from the fist wave IQ score. The parent's score is a number use to evaluate how good the parent or parents are as teachers to their child; a higher score means the parent is a better teacher. Social economic status measures an individual's income, education, and occupation in relation to others and is divided into three groups: Low, Middle, High. There are five categories for race: Whites, Blacks, Hispanics, Asians, and others. Family structure measures whether a family has both biological parents or not. The IQ test used is the Bayley Scales of Infant Development test used to assess an infant's motor, language, and cognitive development. The first wave of IQ test is done when the baby is between 8 and 12 months old and the second wave IQ test is conducted around the child's second birthday. Region is divided into four areas: Northeast, Midwest, South, and West. Table 1 summarizes the continuous variables. 
+
+% Summary Statistics  
+
+\begin{table}[H]
+\centering 
+\setlength\extrarowheight{-6pt}
+
+\begin{threeparttable}
+
+	\singlespace
+	
+	  \caption*{\textbf{Table 1-Summary Statistics}}
+	  
+		\begin{tabular}{l*{6}{c}}
+\hline\hline
+Variable & Observations & Mean & Standard Deviation & Minimum & Maximum \\
+\hline 
+% Low Birth Weight & 7363 & 0.104 & 0.305 & 0 & 1 \\
+% SES & 7363 & 0.642 & 0.833 & 0 & 2  \\
+% Race & 7363 & 1.721 & 1.169 & 0 & 4 \\
+Parent's Score & 7363 & 34.476 & 4.555 & 15 & 49 \\
+Mother's Age & 7363 & 27.613 & 6.373 & 15 & 50 \\
+% Family Structure & 7363 & 0.785 & 0.411 & 0 & 1 \\
+% Region & 7363 & 2.720 & 0.991 & 1 & 4 \\
+$1^{st}$ Wave Score & 7363 & -0.145 & 0.726 & -3.312 & 4.020 \\
+$2^{nd}$ Wave Score& 7363 & -0.098 & 0.757 & -2.381 & 3.249 \\
+Difference in Scores & 7363 & 0.047 & 0.908 & -3.460 & 4.263 \\
+
+\hline 
+
+		\end{tabular}
+
+\end{threeparttable}
+
+\end{table}
+
+Figure 1 shows the probability of being born VLBW given different levels of SES and family structure and Figure 2 shows the probability of being born VLBW given different levels of SES and race. These figures show how nature and nurture both influence the probability of being born VLBW.
+
+\quad \quad \quad \quad \quad \quad \quad \quad \quad Figure 1 \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad Figure 2 \\
+
+\includegraphics[width = 0.5\textwidth]{vlbw_ses_famstruc.pdf}
+\includegraphics[width = 0.5\textwidth]{vlbw_races_ses.pdf} 
+
+
+\section*{III. Models and Results}
+
+The models used to test whether certain characteristics of the family affect the probability of the child being born VLBW are linear probability model, probit model, and logit model. I chose to include a probit model because a linear probability model can give negative probabilities or probabilities greater than 1 which does not make sense. The logit model is used to check the robustness of the probit model. I regressed very low birth weight on SES, race, family structure, mother's age, region, and parent's score. Table 2 shows the following regressions. 
+
+\begin{table}[H]
+\centering 
+\setlength\extrarowheight{-9pt}
+
+\begin{threeparttable}
+	
+	\singlespace
+	  \caption*{\textbf{Table 2-Regression Results For Probability of Very Low Birth Weight Babies}}
+	  
+		\begin{tabular}{l*{6}{c}}
+\hline\hline
+Variable & Linear Probability Model& Probit Model & Logit Model  \\
+\hline & & & \\
+Lowest SES & -0.003 &  -0.001 & -0.002 \\
+& (0.011) & (0.002) & (0.008) \\
+Highest SES & -0.012 & -0.004 & -0.011 \\
+& (0.009) & (0.003) & (0.008) \\
+Whites & $0.053^{***}$ & $0.048^{***}$ & $0.045^{***}$ \\
+& (0.010) & (0.009) & (0.009) \\
+Blacks & $0.122^{***}$ &  $0.107^{***}$ & $0.098^{***}$ \\
+& (0.015) & (0.015) & (0.016) \\
+Hispanics & $0.042^{***}$ & $0.039^{***}$ & $0.036^{***}$ \\
+& (0.011) & (0.011) & (0.010) \\
+Asians & $-0.034^{***}$ & $-0.032^{***}$ & $-0.030^{***}$ \\
+& (0.010) & (0.009) & (0.008) \\
+Both Biological Parents & -0.006 & -0.001 & -0.004 \\
+& (0.011) & (0.002) & (0.008) \\
+Mother's Age & 0.000 & 0.000 & 0.000 \\
+& (0.001) & (0.000) & (0.001) \\
+Parent's Score & $-0.003^{***}$ & $-0.001^{***}$ & $-0.003^{***}$ \\
+& (0.001) & (0.000) & (0.001) \\
+Midwest & $-0.021^{*}$ & -0.004 & $-0.022^{*}$ \\
+& (0.012) & (0.003) & (0.013) \\
+South & -0.008 & -0.002 & -0.010 \\
+& (0.012) & (0.002) & (0.012) \\
+West & $-0.034^{***}$ & $-0.007^{**}$ & $-0.039^{***}$ \\
+& (0.012) & (0.003) & (0.013) \\
+constant & $0.180^{***}$ & $-$ & $-$ \\
+& (0.036) & $-$ & $-$ \\
+
+\hline 
+
+		\end{tabular}
+		
+\begin{tablenotes}[flushleft]
+
+      \small
+      \singlespace
+      \item
+      \textit{{\footnotesize{{Note}: The constant term captures the probability of a family in the middle SES who is of an other race that does not have both biological parents that lives in the Northeast. The Probit Model is the partial effect of an Asian family who is of the highest SES that lives in the South with both biological parents who scored a 38 on the parent test and the mother is 32 years old. The Logit Model is the partial effect of a Hispanic family who is in the middle SES that lives in the West with both biological parents who scored a 34 on the parent test and the mother is 25 years old. These sets of traits were chosen to compare the effects of each variable.}}}   
+      
+\end{tablenotes}		
+
+\end{threeparttable}
+
+\end{table}
+
+Very low birth weight was regressed on SES, race, an interaction between SES and race, mother's age, family structure, parent's score, multi-birth status, region, and days premature with robust standard errors. Table 3 shows the following regression. 
+
+\begin{table}[H]
+\centering 
+\setlength\extrarowheight{-9pt}
+	
+\begin{threeparttable}
+
+	\singlespace
+	  \caption*{\textbf{Table 3-Regression Results For SES and Race}}
+	  
+		\begin{tabular}{l*{6}{c}}
+\hline \hline
+Variable & Coefficient & 95\% Confidence Interval \\
+\hline
+Lowest SES & 0.009 & (-0.016, 0.035) \\
+& (0.013) & \\
+Highest SES & 0.006 & (-0.010, 0.021) \\
+& (0.008) & \\
+Whites & $0.021^{***}$ & (0.007, 0.036) \\
+& (0.007) & \\
+Blacks & $0.031^{***}$ & (0.011, 0.051) \\
+& (0.010) & \\
+Hispanics & 0.012 & (-0.005, 0.029) \\
+& (0.009) & \\
+Asians & 0.016 & (-0.004, 0.037) \\
+& (0.010) & \\
+Lowest SES and White & -0.010 & (-0.047, 0.026) \\
+& (0.019) & \\
+Lowest SES and Black & -0.016 & (-0.052, 0.020) \\
+& (0.018) & \\
+Lowest SES and Hispanic & -0.002 & (-0.035, 0.031) \\
+& (0.017) & \\
+Lowest SES and Asian & -0.038 & (-0.085, 0.009) \\
+& (0.024) & \\
+Highest SES and White & $-0.023^{**}$ & (-0.043, -0.003) \\
+& (0.010) & \\
+Highest SES and Black & 0.010 &  (-0.028, 0.049) \\
+& (0.020) & \\
+Highest SES and Hispanic & 0.016 & (-0.023, 0.056) \\
+& (0.020) & \\
+Highest SES and Asian & -0.012 & (-0.036, 0.012) \\
+& (0.012) & \\
+constant & 0.010 & (-0.030, 0.051) \\
+& (0.021) & \\
+\hline
+	\end{tabular}
+
+\begin{tablenotes}[flushleft]
+
+      \small
+      \singlespace
+      \item
+      \textit{\footnotesize{{Note}: The regression was ran with mother's age, family structure, parent's score, multi-birth status, region, and days premature held constant. Those coefficients are omitted from this table because those variables are not of interest. The constant captures the probability of a middle SES family of other race without both biological parents living in the Northeast where the baby is a singleton being born VLBW.}}   
+      
+\end{tablenotes}	
+
+\end{threeparttable}
+
+\end{table}
+
+
+\doublespace 
+
+Three regressions were ran with robust standard errors on first wave IQ score, second wave IQ score, and the difference between first and second wave IQ score respectively on very low birth weight, SES, interaction of low birth weight and SES, parent's score, mother's age, family structure, multi-birth status, region, days premature, and gender. The age of when the first and second test were conducted were added to the model for first wave and second wave IQ score respectively. Table 4 summarizes the results.
+
+\singlespace 
+
+\begin{table}[H]
+\centering 
+\setlength\extrarowheight{-9pt}
+	
+\begin{threeparttable} 
+	
+	\singlespace
+	  \caption*{\textbf{Table 4-Regression Results For IQ Scores}}
+	  
+		\begin{tabular}{l*{6}{c}}
+
+\hline\hline
+Variable & $1^{st}$ IQ Score & $2^{nd}$ IQ Score & Difference $1^{st}$ \& $2^{nd}$ IQ Score  \\
+\hline
+Very Low Birth Weight & $-0.244^{***}$ & $-0.255^{***}$ & $-0.133^{**}$ \\
+& (0.040) & (0.050) & (0.064)\\
+Lowest SES & -0.016 & $0.215^{***}$ & $-0.214^{***}$ \\
+& (0.015) & (0.023) & (0.031) \\
+Highest SES & 0.013 & $0.275^{***}$ & $0.294^{***}$ \\
+& (0.013) & (0.022) & (0.028) \\
+Very Low Birth Weight \& Lowest SES & -0.34 & $0.167^{***}$ & 0.$221^{***}$ \\
+& (0.050) & (0.062) & (0.083) \\
+Very Low Birth Weight \& Highest SES & 0.011 & 0.003 & 0.002\\
+& (0.055) & (0.071) & (0.092) \\
+constant & $-3.43^{***}$ & $-4.62^{***}$ & -0.014 \\
+& (0.057) & (0.231) & (0.099) \\
+\hline
+
+	\end{tabular}
+	
+\begin{tablenotes}[center]
+
+      \small
+      \singlespace
+      \item
+      \textit{\footnotesize{{Note}: All three regressions were ran with the variables mother's age, family structure, multi-birth status, region, days premature, parent's score, and gender. The $1^{st}$ and $2^{nd}$ IQ score wave also had the variables age of score 1 and age of score 2 respectively. The coefficients of these variables are not reported because it is not of interest. The baseline model in the constant is a family without both biological parents that lives in the Northeast region who has a singleton baby who is male.}}   
+      
+\end{tablenotes}		
+	
+\end{threeparttable}	
+	
+	\end{table}
+	
+\doublespace 
+
+\section*{IV. Interpretation of Regression Results} 
+
+This paper's first goal is to determine whether family situation and genetics influence the probability of VLBW babies being born. From a linear probability model, given the characteristics of SES, race, family structure, mother's age, region, and parent's score, the average probability of all 7,363 babies being born VLBW is about 10.36\%. This is a high probability since according to the National Center of Health Statistics, in 2011, only 1.4\% of babies were born VLBW. However, the $R^2$ is only 2.73\% which means only 2.73\% of the total variance is explained by the model. There may be many other factors that are omitted from this model such as parent's level of education or wage that can also affect birth weight. If these variables were added into the model, the estimate may be more accurate. From the probit and logit models this paper investigates the probability of a baby being born VLBW under certain characteristics. The first set of traits is a mother who is 25 years old since that time period is when women are most fertile, a White family since they usually have an inherent advantage that lives in the Midwest since it is a region where it is more conservative, a family who scored a 40 which is about one standard deviation above the mean on the parent test which means they are good teachers to their child, and a family that has both biological parents for family stability in the highest SES. The probability is 7.56\% (0.075 $\pm$ 0.019, n=7363). In contrast, the probability under the characteristics of a family where the mother's fertility is decreasing which is around the age of 35, a Black family which is usually discriminated against that lives in the Northeast where it is more liberal, the parents scored a 29 which is about one standard deviation below the mean on the parent test which means the parents are not a great teachers to the child, a family where they do not have both biological parents that is in the lowest SES is about 24\% (0.24 $\pm$ 0.055, n=7363). The contrast looks big; just by having different factors, a baby jumps from an 8\% chance to 24\% chance of being born VLBW. This shows that the both nature and nurture are important to a baby's health.
+
+The second goal is to see whether there is a significant difference between the probability of being born VLBW between a White family of the highest SES and a Black family of the lowest SES. These traits were chosen because I want to compare two extreme set of family situations. White families tend to have an inherent advantage over other races while Black families tend to be discriminated against. The highest SES group also have an advantage over the lowest SES group in terms of money, connections, and resources. However, according to this data set, there is no significant difference in the probability between these two groups (F-test, p=0.1264). This is counter-intuitive and it might be due to the model not controlling other factors that affect a babies' birth weight since the $R^2$ for this model is about 66.59\%. We need more observations and data on other family characteristics such as genetics or whether the mother smokes or not to get a better estimate.  
+
+
+The last goal is to test whether there is a difference in IQ score between VLBW babies to other babies in the middle SES group. After holding mother's age, family structure, multi-birth status, region, parent's score, days premature, and gender constant, the t-test revealed a statistically significant IQ score gap in both wave one and wave two between VLBW babies and other babies in the middle SES group ($p < 0.01 $). The difference in IQ score is already seen in babies as early as 8 to 16 months and continues to the child's second birthday. For the difference between the wave one and wave two IQ scores holding the above traits constant, it is also significantly different (t-test, p=0.037). There is indeed a difference in the increase from first wave IQ score to second wave IQ score between VLBW babies in the middle SES group. This means that the gap between the IQ scores does not converge even as the babies grow older. Even before these babies enroll into school, they are already behind their peers in terms of mental and motor development.
+
+\section*{V. Policy Implications}
+
+Based on the regression results, there may be policies that can help reduce the number of VLBW babies being born. There are medical findings that suggest that VLBW babies are at a disadvantage from the start and continues throughout their life (McCormick \textit{et al}, 1992; Hack \textit{et al}, 1992). The consequences increase both private and social cost. Parents increase personal expenses such as tutoring to help their child catch up and medical expenses. Society loses productive workers since fewer VLBW babies graduate high school and go to post-secondary education. According to the Human Capital Model, more education would make an individual more productive. This increase in productivity is lost for VLBW babies since many do not further their education.   
+
+One policy could be educating minorities such as Blacks especially in the lowest SES when they are teenagers. This group of people are more likely to have a baby born under 1,500 grams so we should start by educating them. We can have more sexual education classes in high school to try and decrease teenage pregnancy which is common for minorities in low SES. It has been shown that teenagers display optimistic bias, having the belief that they are not as likely to have negative consequences from health behaviors such as risky sexual activities (Chapin, 2001). Teenagers often do not take into account the consequences of their actions. Having a child when they are not ready to can affect the child and their life greatly so sexual education classes should help them understand that. 
+
+Another policy is to give teenagers more educational and career opportunities. More information about how to apply for college and different financial assistance should be given. Information is key since many minorities do not understand the process of applying to college and the opportunities college provides for them since most of their parents never went to college. These policies should start early such as in the beginning of high school. College information should also be given to parents since teenagers are present bias, favoring the present more than the future, so parents should be a guide to help their children.  
+
+The last policy suggestion would be family planning resources for adults. According to the Centers for Disease Control and Prevention in the United States, in 2006, 49\% of pregnancies were unintended. Between 2001 and 2006, unintended pregnancies rate rose a lot among women with lower education and low income, and unmarried, Black, and less educated women are more likely to have unintended births. There should be education for adults for family planning to make sure both partners are ready to have a child together and that the child would be born healthy. Medical facilities should receive funding to help partners understand the different safe contraception methods, men and women sexual health, safe sex, sexually transmitted disease, and general health care if they are preparing to start a family. Being knowledgeable is the best way to plan and prepare to have a baby and would lower the chance of a baby born VLBW. These resources should be provided by medical facilities funded by the government by tax payers since it is a social good. Partners can meet with doctors that specialize in fertility care that can track the different stages of pregnancy to make sure that the baby would be born healthy in the normal weight range. 
+
+These policy implications center around education although other factors such as mother's age affect probability of having a VLBW baby. Education was chosen because education not only can lower the number of VLBW babies but it also creates positive externalities. Education can produce more productive workers, new inventions to make the world more efficient, higher standards of living, and among others that has both private and social benefit.  
+
+
+% \nocite{hack1991effect}
+\nocite{hack2002outcomes}
+\nocite{anderson2003neurobehavioral}
+% \nocite{qi2003behavior}
+\nocite{hoynes2012income}
+% \nocite{lynch1997poor}
+\nocite{hack1992effect}
+\nocite{mccormick1992health}
+\nocite{chapin2001won}
+
+\section*{VI. Conclusion}
+
+According to the Minnesota Department of Health, VLBW babies are at a higher risk of developing cognitive, neuromotor and neurosensory disabilities that affects them for the rest of their lives. Mothers who have poor nutrition, neglect prenatal care, or take part in drugs and alcohol have a higher chance of having a VLBW baby. This paper explores the probability of a VLBW baby being born due to nature and nurture. No statistical significant difference was found in the probability of VLBW babies being born from the highest SES White family from the lowest SES Black family. However, this paper found that there is a significant difference in wave one IQ scores, wave two IQ scores, and the difference between the two IQ score waves in VLBW babies compared to other babies in the same SES group. Partners need to be mentally and physically prepared to start a family because their behaviors and family situation have large effects on their children. 
+
+
+
+\pagebreak
+
+\singlespace
+\bibliographystyle{aer}
+\bibliography{project_bib}
+\noindent
+
+
+
+
+
+\end{document}
