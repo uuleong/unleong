@@ -20,6 +20,7 @@
 <p> I am really interested in sports statistics, especially in basketball! The recent wave of technological innovations in basketball, such as wearables, got me fascinated in understanding how big data can be analyzed to improve players' performance. </p>
 
 
+
 <h4> Projects </h4>
 
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/STA141%20Project.ipynb">Gender Wage Gap in Sports</a>
