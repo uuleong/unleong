@@ -6,9 +6,9 @@
 
 <h1 style="text-align:center;">Welcome to Un's Website!</h1>
 
-<img src = "image/IMG_8956.JPG" >
-
 <h6 style="text-align:center;"> "Good, better, best. Never let it rest. Until your good is better and your better is your best." - Tim Duncan</h6>
+
+<img src = "image/IMG_8956.JPG" >
 
 <h4>About Me </h4>
 
