@@ -24,7 +24,7 @@
 
 <h4> Projects </h4>
 
-<a href = "https://github.com/uuleong/uuleong.github.io/blob/master/STA141%20Project.ipynb">Gender Wage Gap in Sports</a>
+<a href = "project/STA141+Project.html">Gender Wage Gap in Sports</a>
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/>Very Low Birth Weight Babies<br/> </a>
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf">Milk</a>
 
