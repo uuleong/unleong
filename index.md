@@ -8,13 +8,10 @@
 
 <h6 style="text-align:center;"> "Good, better, best. Never let it rest. Until your good is better and your better is your best." - Tim Duncan</h6>
 
-<img src = "image/IMG_8956.JPG" >
 
 <h4>About Me </h4>
 
-<p>Hi, my name is Un Leong and I am from the Bay Area! I am a fourth year undergraduate studying at the University of California, Davis pursing a B.A. in Economics with a specialization in Data Analytics and Economics Analysis and a B.S. in Applied Statistics with an emphasis in Economics. I am planning to attend graduate school studying applied economics after I graduate this coming June. Feel free to contact me at uuleong@ucdavis.edu!  </p>
-
-<a href="https://www.linkedin.com/in/un-leong-213875117">LinkedIn profile</a>
+<p>Hi, my name is Un Leong and I am from the Bay Area! I am a fourth year undergraduate studying at the University of California, Davis pursing a B.A. in Economics with a specialization in Data Analytics and Economics Analysis and a B.S. in Applied Statistics with an emphasis in Economics.  </p>
 
 <h4> Data Science Interest </h4> 
 
@@ -24,7 +21,6 @@
 
 <h4> Projects </h4>
 
-<a href = "project/STA141+Project.html">Gender Wage Gap in Sports</a>
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/ECN%20140%20Project.pdf"> <br/>Very Low Birth Weight Babies<br/> </a>
 <a href = "https://github.com/uuleong/uuleong.github.io/blob/master/project_fix.pdf">Milk</a>
 
